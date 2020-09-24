@@ -1,0 +1,4 @@
+PROJECT(3)
+
+ADD_EXECUTABLE(3
+        3.15.cpp)
