@@ -102,6 +102,30 @@
 		<Unit filename="/home/bokket/C-/3/3.36.cpp">
 			<Option target="3"/>
 		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.37.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.39.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.40.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.41.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.42.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.43.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.44.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="/home/bokket/C-/3/3.45.cpp">
+			<Option target="3"/>
+		</Unit>
 		<Unit filename="/home/bokket/C-/3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
