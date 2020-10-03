@@ -54,10 +54,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/126/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/bokket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/126/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/bokket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -90,17 +90,92 @@ CMakeFiles/3.dir/3.15.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.15.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bokket/C-/3/3.15.cpp -o CMakeFiles/3.dir/3.15.cpp.s
 
+CMakeFiles/3.dir/3.25.cpp.o: CMakeFiles/3.dir/flags.make
+CMakeFiles/3.dir/3.25.cpp.o: ../3.25.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bokket/C-/3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3.dir/3.25.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3.dir/3.25.cpp.o -c /home/bokket/C-/3/3.25.cpp
+
+CMakeFiles/3.dir/3.25.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3.dir/3.25.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bokket/C-/3/3.25.cpp > CMakeFiles/3.dir/3.25.cpp.i
+
+CMakeFiles/3.dir/3.25.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.25.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bokket/C-/3/3.25.cpp -o CMakeFiles/3.dir/3.25.cpp.s
+
+CMakeFiles/3.dir/3.31.cpp.o: CMakeFiles/3.dir/flags.make
+CMakeFiles/3.dir/3.31.cpp.o: ../3.31.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bokket/C-/3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3.dir/3.31.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3.dir/3.31.cpp.o -c /home/bokket/C-/3/3.31.cpp
+
+CMakeFiles/3.dir/3.31.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3.dir/3.31.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bokket/C-/3/3.31.cpp > CMakeFiles/3.dir/3.31.cpp.i
+
+CMakeFiles/3.dir/3.31.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.31.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bokket/C-/3/3.31.cpp -o CMakeFiles/3.dir/3.31.cpp.s
+
+CMakeFiles/3.dir/3.32.cpp.o: CMakeFiles/3.dir/flags.make
+CMakeFiles/3.dir/3.32.cpp.o: ../3.32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bokket/C-/3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3.dir/3.32.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3.dir/3.32.cpp.o -c /home/bokket/C-/3/3.32.cpp
+
+CMakeFiles/3.dir/3.32.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3.dir/3.32.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bokket/C-/3/3.32.cpp > CMakeFiles/3.dir/3.32.cpp.i
+
+CMakeFiles/3.dir/3.32.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.32.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bokket/C-/3/3.32.cpp -o CMakeFiles/3.dir/3.32.cpp.s
+
+CMakeFiles/3.dir/3.35.cpp.o: CMakeFiles/3.dir/flags.make
+CMakeFiles/3.dir/3.35.cpp.o: ../3.35.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bokket/C-/3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/3.dir/3.35.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3.dir/3.35.cpp.o -c /home/bokket/C-/3/3.35.cpp
+
+CMakeFiles/3.dir/3.35.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3.dir/3.35.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bokket/C-/3/3.35.cpp > CMakeFiles/3.dir/3.35.cpp.i
+
+CMakeFiles/3.dir/3.35.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.35.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bokket/C-/3/3.35.cpp -o CMakeFiles/3.dir/3.35.cpp.s
+
+CMakeFiles/3.dir/3.36.cpp.o: CMakeFiles/3.dir/flags.make
+CMakeFiles/3.dir/3.36.cpp.o: ../3.36.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bokket/C-/3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/3.dir/3.36.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3.dir/3.36.cpp.o -c /home/bokket/C-/3/3.36.cpp
+
+CMakeFiles/3.dir/3.36.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3.dir/3.36.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bokket/C-/3/3.36.cpp > CMakeFiles/3.dir/3.36.cpp.i
+
+CMakeFiles/3.dir/3.36.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.36.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bokket/C-/3/3.36.cpp -o CMakeFiles/3.dir/3.36.cpp.s
+
 # Object files for target 3
 3_OBJECTS = \
-"CMakeFiles/3.dir/3.15.cpp.o"
+"CMakeFiles/3.dir/3.15.cpp.o" \
+"CMakeFiles/3.dir/3.25.cpp.o" \
+"CMakeFiles/3.dir/3.31.cpp.o" \
+"CMakeFiles/3.dir/3.32.cpp.o" \
+"CMakeFiles/3.dir/3.35.cpp.o" \
+"CMakeFiles/3.dir/3.36.cpp.o"
 
 # External object files for target 3
 3_EXTERNAL_OBJECTS =
 
 3 : CMakeFiles/3.dir/3.15.cpp.o
+3 : CMakeFiles/3.dir/3.25.cpp.o
+3 : CMakeFiles/3.dir/3.31.cpp.o
+3 : CMakeFiles/3.dir/3.32.cpp.o
+3 : CMakeFiles/3.dir/3.35.cpp.o
+3 : CMakeFiles/3.dir/3.36.cpp.o
 3 : CMakeFiles/3.dir/build.make
 3 : CMakeFiles/3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bokket/C-/3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bokket/C-/3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable 3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

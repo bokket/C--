@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/126/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/bokket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/126/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/bokket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/bokket/C-/3/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/126/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/bokket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -90,7 +90,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/126/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/bokket/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7319.72/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -170,6 +170,141 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.15.cpp.s
 .PHONY : 3.15.cpp.s
 
+3.25.o: 3.25.cpp.o
+
+.PHONY : 3.25.o
+
+# target to build an object file
+3.25.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.25.cpp.o
+.PHONY : 3.25.cpp.o
+
+3.25.i: 3.25.cpp.i
+
+.PHONY : 3.25.i
+
+# target to preprocess a source file
+3.25.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.25.cpp.i
+.PHONY : 3.25.cpp.i
+
+3.25.s: 3.25.cpp.s
+
+.PHONY : 3.25.s
+
+# target to generate assembly for a file
+3.25.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.25.cpp.s
+.PHONY : 3.25.cpp.s
+
+3.31.o: 3.31.cpp.o
+
+.PHONY : 3.31.o
+
+# target to build an object file
+3.31.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.31.cpp.o
+.PHONY : 3.31.cpp.o
+
+3.31.i: 3.31.cpp.i
+
+.PHONY : 3.31.i
+
+# target to preprocess a source file
+3.31.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.31.cpp.i
+.PHONY : 3.31.cpp.i
+
+3.31.s: 3.31.cpp.s
+
+.PHONY : 3.31.s
+
+# target to generate assembly for a file
+3.31.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.31.cpp.s
+.PHONY : 3.31.cpp.s
+
+3.32.o: 3.32.cpp.o
+
+.PHONY : 3.32.o
+
+# target to build an object file
+3.32.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.32.cpp.o
+.PHONY : 3.32.cpp.o
+
+3.32.i: 3.32.cpp.i
+
+.PHONY : 3.32.i
+
+# target to preprocess a source file
+3.32.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.32.cpp.i
+.PHONY : 3.32.cpp.i
+
+3.32.s: 3.32.cpp.s
+
+.PHONY : 3.32.s
+
+# target to generate assembly for a file
+3.32.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.32.cpp.s
+.PHONY : 3.32.cpp.s
+
+3.35.o: 3.35.cpp.o
+
+.PHONY : 3.35.o
+
+# target to build an object file
+3.35.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.35.cpp.o
+.PHONY : 3.35.cpp.o
+
+3.35.i: 3.35.cpp.i
+
+.PHONY : 3.35.i
+
+# target to preprocess a source file
+3.35.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.35.cpp.i
+.PHONY : 3.35.cpp.i
+
+3.35.s: 3.35.cpp.s
+
+.PHONY : 3.35.s
+
+# target to generate assembly for a file
+3.35.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.35.cpp.s
+.PHONY : 3.35.cpp.s
+
+3.36.o: 3.36.cpp.o
+
+.PHONY : 3.36.o
+
+# target to build an object file
+3.36.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.36.cpp.o
+.PHONY : 3.36.cpp.o
+
+3.36.i: 3.36.cpp.i
+
+.PHONY : 3.36.i
+
+# target to preprocess a source file
+3.36.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.36.cpp.i
+.PHONY : 3.36.cpp.i
+
+3.36.s: 3.36.cpp.s
+
+.PHONY : 3.36.s
+
+# target to generate assembly for a file
+3.36.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/3.36.cpp.s
+.PHONY : 3.36.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +317,21 @@ help:
 	@echo "... 3.15.o"
 	@echo "... 3.15.i"
 	@echo "... 3.15.s"
+	@echo "... 3.25.o"
+	@echo "... 3.25.i"
+	@echo "... 3.25.s"
+	@echo "... 3.31.o"
+	@echo "... 3.31.i"
+	@echo "... 3.31.s"
+	@echo "... 3.32.o"
+	@echo "... 3.32.i"
+	@echo "... 3.32.s"
+	@echo "... 3.35.o"
+	@echo "... 3.35.i"
+	@echo "... 3.35.s"
+	@echo "... 3.36.o"
+	@echo "... 3.36.i"
+	@echo "... 3.36.s"
 .PHONY : help
 
 
