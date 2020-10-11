@@ -45,6 +45,9 @@
       <change beforePath="$PROJECT_DIR$/../3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../3/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +78,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -94,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602162477994</updated>
       <workItem from="1602162479200" duration="698000" />
-      <workItem from="1602217841020" duration="2269000" />
+      <workItem from="1602217841020" duration="7597000" />
     </task>
     <servers />
   </component>
@@ -112,5 +120,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2380" y="161" width="435" height="453" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602229184333">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2380" y="161" width="435" height="453" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1366.768@1920.0.1366.768" timestamp="1602229184333" />
+    <state x="2333" y="85" width="530" height="605" key="FileChooserDialogImpl" timestamp="1602229169301">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2333" y="85" width="530" height="605" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1366.768@1920.0.1366.768" timestamp="1602229169301" />
   </component>
 </project>
