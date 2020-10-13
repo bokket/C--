@@ -6,11 +6,20 @@
 #define C_LIST_H
 
 
-
-class List {
-
+struct Node{
+    int data;
+    struct Node* next;
 };
 
+class List {
+public:
+    List* createList();
+    void insertList(int d);
+    void print();
+
+private:
+    Node* head;
+};
 
 
 #endif //C_LIST_H
