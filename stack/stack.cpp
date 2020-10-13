@@ -8,18 +8,19 @@
 #include <string.h>
 #include <stdio.h>
 using namespace std;
-void stack::init()
+/*void stack::init()
 {
     top=0;
     memset(space,0,sizeof(space));
-}
+}*/
 bool stack::isEmpty()
 {
     return top==0;
 }
 bool stack::isFull()
 {
-    return top==1024;
+    return top==_size;
+    //return top==1024;
 }
 char stack::pop()
 {
