@@ -19,7 +19,11 @@ public:
     //设置年龄
     void setAge(int ages)
     {
-        if(ages<0 || ages>0)
+        if(ages<0 || ages>150)
+        {
+            cerr<<"wrang"<<endl;
+            return;
+        }
         age=ages;
     }
     //获取年龄
