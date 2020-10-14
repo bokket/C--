@@ -1,10 +1,10 @@
 //
 // Created by bokket on 2020/10/13.
 //
-#include "List.h"
+#include "List.cpp"
 #include <iostream>
 using namespace std;
-
+/*
 List* List::createList()
 {
     head=new Node;
@@ -27,14 +27,22 @@ void List::print()
         ph=ph->next;
     }
 }
-
+*/
 
 int main()
 {
+
     List list;
+    list.insertList(1);
+    list.insertList(2);
+    list.insertList(3);
+    list.print();
+
+
+    /*List list;
     list.createList();
 
     for(int i=0;i<10;i++)
         list.insertList(i);
-    list.print();
+    list.print();*/
 }

@@ -13,7 +13,9 @@ struct Node{
 
 class List {
 public:
-    List* createList();
+    List();
+    ~List();
+    //List* createList();
     void insertList(int d);
     void print();
 
