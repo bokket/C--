@@ -27,6 +27,7 @@ List::~List() {
     head=new Node;
     head->next=NULL;
 }*/
+//
 void List::insertList(int d)
 {
     Node* cur=new Node;
