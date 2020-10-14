@@ -36,7 +36,7 @@ int main()
     List list;
     list.insertList(1);
     list.insertList(2);
-    list.insertList(3);
+    //list.insertList(3);
     list.print();
 
 
