@@ -11,7 +11,11 @@ public:
     {
         return tower;
     }
-    string &get
+    static string &getLib()
+    {
+        tower="hahah";
+        return lib;
+    }
 //public:
 private:
     string tower;
@@ -24,8 +28,8 @@ string School::lib;
 
 int main()
 {
-    School::lib="jiuyin";
-    School::lib+="+bokket";
+    School::getLib()="jiuyin";
+    School::getLib()+="+bokket";
    // School::lib+="+kangong";
 
     School cz,bn,blueshit;
@@ -33,9 +37,12 @@ int main()
     bn.getTower()="shuot";
     blueshit.getTower()="wajyet";
 
-    cz.lib+="+ssss";
-    bn.lib+="+leave";
-    blueshit.lib+="+>>>>";
+    cz.getLib()+="+ssss";
+    bn.getLib()+="+leave";
+    blueshit.getLib()+="+>>>>";
 
-    cout<<cz.lib<<endl;
+    cout<<cz.getLib()<<endl;
+    cout<<blueshit.getLib()<<endl;
+
+    cout<<School::getLib()<<endl;
 }
