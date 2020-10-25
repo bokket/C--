@@ -61,5 +61,4 @@ int main()
     a.Format();
     b.Format();
     s.Format();
-
 }
