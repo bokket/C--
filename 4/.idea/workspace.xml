@@ -38,6 +38,7 @@
       <change beforePath="$PROJECT_DIR$/../1/1.9.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1/1.9.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1/Sales_item.h" beforeDir="false" afterPath="$PROJECT_DIR$/../1/Sales_item.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../5" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -78,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601729651353</updated>
-      <workItem from="1601729652570" duration="3043000" />
+      <workItem from="1601729652570" duration="3674000" />
     </task>
     <servers />
   </component>
@@ -95,5 +96,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2333" y="85" width="530" height="605" key="FileChooserDialogImpl" timestamp="1602052461113">
+      <screen x="1920" y="0" width="1366" height="768" />
+    </state>
+    <state x="2333" y="85" width="530" height="605" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1366.768@1920.0.1366.768" timestamp="1602052461113" />
   </component>
 </project>

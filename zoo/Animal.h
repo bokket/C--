@@ -6,8 +6,13 @@
 #define C_ANIMAL_H
 
 
-class Animal {
+class Animal
+{
+public:
+    Animal();
+    virtual ~Animal();
 
+    virtual void voice()=0;
 };
 
 

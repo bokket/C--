@@ -16,6 +16,11 @@ public:
         //cout<<"stack() "<<endl;
         //init();
     }*/
+    stack()
+    {
+        top=0;
+        space=new char[1024];
+    }
     stack(int size)
     {
         top=0;

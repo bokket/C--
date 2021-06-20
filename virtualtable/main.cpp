@@ -26,5 +26,5 @@ class Derive: public Base
 int main()
 {
     Derive b;
-    
+eid
 }

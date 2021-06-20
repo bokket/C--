@@ -8,12 +8,12 @@ int main()
 {
     //stack st;//无参数构造
 
-    stack* ps=new stack;//无参数构造器，标配
-    stack* ps2=new stack(100);
+    //stack* ps=new stack;//无参数构造器，标配
+    //stack* ps2=new stack(100);
    /* {
         stack st1;
     }*/
-
+    //stack st;
     stack st(10);//有参数
 
     /*stack st();
